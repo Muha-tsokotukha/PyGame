@@ -66,8 +66,8 @@ kx = (k * WIDTH) / (6 * math.pi)
 ky = (k * HEIGHT) / 2
 center = (WIDTH // 2, HEIGHT // 2)
 
-sin_points = get_points(math.sin, xrange, step, kx, ky, center)
-cos_points = get_points(math.cos, xrange, step, kx, ky, center)
+sin_points = get_points(math.sin, xrange, step, kx, ky-33, center)
+cos_points = get_points(math.cos, xrange, step, kx, ky-33, center)
 
 done = False
 while not done:
